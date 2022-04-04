@@ -1,0 +1,157 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+
+  background-color: #fff;
+  color: blue;
+  height: 8vh;
+  align-items: center;
+  padding: 0 50px;
+  display: flex;
+  border-bottom: 1px solid lightgray;
+  
+ 
+}
+header ul {
+  height: 100%;
+  list-style: none;
+  flex-basis: 20%;
+  display: flex;
+
+}
+header ul li a{
+  color: blue;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bolder;
+  padding-right: 30px;
+ 
+  
+}
+header ul li{
+  height: 100%;
+  flex-grow: 1;
+  border-left: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search input{
+  font-size: 16px;
+  padding: 4px;
+  margin-right: 500px;
+  border: none;
+  background-color: lightgray;
+  height: 30px;
+  border-radius: 5px;
+}
+.dropbtn {
+   display: flex;
+  border: none;
+  outline: none;
+  color: blue;
+  padding: 0 20px;
+  background-color: inherit;
+  margin: 0;
+}
+.logo{
+  width: 200px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.header-image{
+  
+  justify-content:flex-start;
+  width: 200px;
+  padding-right: 40px;
+}
+::placeholder{
+  color:#2665d1;
+  opacity: 1;
+  font-weight: bold;
+}
+.main{
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  height: 60vh;
+  padding: 50px 0;
+  padd
+
+}
+.main-left{
+  grid-column: 1 / 7;
+}
+.wp-img{
+  width: 100%;
+  height: 100%;
+  margin-left: 100px;
+}
+.main-right{
+  grid-column: 7 / -1;
+}
+.paragraph-1{
+  text-align: center;
+  margin-top: 130px;
+  /*margin-right: 400px;*/
+  margin-right: 145px;
+  font-size: 45px;
+  font-weight: bold;
+}
+.lines-img{
+  padding-left: 90px;
+}
+.paragraph-2{
+  text-align: center;
+  color: black;
+  margin-right: 120px;
+  padding-top: 10px;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.btn-group button {
+  background-color: #2665d1; 
+  border: 1px solid #2665d1; 
+  color: white; 
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 10px 24px; 
+  cursor: pointer; 
+  float: left; 
+}
+.button-1{
+  
+  border-radius: 5px;
+}
+.button-2{
+ 
+  border-radius: 5px;
+}
+.button-3{
+ 
+  border-radius: 5px;
+}
+.button-4{
+  border-radius: 5px;
+}
+.btn-group button:not(:last-child) {
+  border-right: none; 
+}
+
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.btn-group button:hover {
+  background-color: #4395bb;
